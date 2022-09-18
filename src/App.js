@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./components/menu";
-import Categories from "./components/Categories";
+import Categories from "./components/categories";
 import items from "./components/data";
 import './App.css'
 
