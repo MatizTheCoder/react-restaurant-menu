@@ -2,7 +2,7 @@
 
 import './App.css';
 import Buttons from './components/buttons';
-import CreateFood from './components/foods'
+import CreateFood from './components/menu'
 
 function App() {
   return (
