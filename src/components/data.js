@@ -37,7 +37,7 @@ const Menu = [
     },
     {
       id: 5,
-      title: "Yangzhou Fried Rice",
+      title: "Fried Rice",
       category: "China",
       price: 12.99,
       img:
