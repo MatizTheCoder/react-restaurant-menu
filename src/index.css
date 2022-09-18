@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Zilla Slab', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:#f1f5f8;
+  background:#aab9c5;
   color: hsl(209, 61%, 16%);
 }
 
@@ -14,10 +14,7 @@ code {
     monospace;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h2, h4 {
   letter-spacing:  0.1rem;
   text-transform: capitalize;
   line-height: 1.25;
@@ -114,6 +111,8 @@ p {
 .item-text {
   margin-bottom: 0;
   padding-top: 1rem;
+  min-width: 250px;
+  max-width: 250px;
 }
 
 
