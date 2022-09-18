@@ -4,7 +4,7 @@ import Categories from "./components/Categories";
 import items from "./components/data";
 // import logo from "./logo.JPG";
 
-const allCategories = ["all", ...new Set(items.map((item) => item.category))];
+const allCategories = ["All", ...new Set(items.map((item) => item.category))];
 
 const App = () => {
   const [menuItems, setMenuItems] = useState(items);
@@ -13,7 +13,7 @@ const App = () => {
 
   const filterItems = (category) => {
     setActiveCategory(category);
-    if (category === "all") {
+    if (category === "All") {
       setMenuItems(items);
       return;
     }
