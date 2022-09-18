@@ -1,5 +1,5 @@
 import Main from './components/main';
-import CreateButtons from './components/buttons';
+// import CreateButtons from './components/buttons';
 
 import './App.css';
 
