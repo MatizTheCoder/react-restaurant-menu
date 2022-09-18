@@ -4,7 +4,7 @@ function Main() {
         <section class="menu">
           
           <div class="title">
-            <h2>Asian Kitchen's Menu</h2>
+            <h2>React Restaurant Menu</h2>
           </div>
           
           <div class="btn-container"></div>
