@@ -1,15 +1,15 @@
 function Main() {
     return (      
-        <div class="container">
-        <section class="menu">
+        <div className="container">
+        <section className="menu">
           
-          <div class="title">
+          <div className="title">
             <h2>React Restaurant Menu</h2>
           </div>
           
-          <div class="btn-container"></div>
+          <div className="btn-container"></div>
          
-          <div class="section-center row">
+          <div className="section-center row">
                            
           </div>
         </section>
